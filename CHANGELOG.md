@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/heenning/release_please/compare/v1.1.0...v2.0.0) (2025-09-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* breaks everything
+
+### Features
+
+* breaks everything ([b431b78](https://github.com/heenning/release_please/commit/b431b78d8f728a6104ed310569543b7ce6a873fe))
+
 ## [1.1.0](https://github.com/heenning/release_please/compare/v1.0.0...v1.1.0) (2025-09-23)
 
 
