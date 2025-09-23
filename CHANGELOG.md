@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.0](https://github.com/heenning/release_please/compare/v3.0.0...v3.1.0) (2025-09-23)
+
+
+### Features
+
+* ab ins bett ([ad51950](https://github.com/heenning/release_please/commit/ad519501f9e7bd23feae024f80f14657780a4f86))
+
 ## [3.0.0](https://github.com/heenning/release_please/compare/v2.0.1...v3.0.0) (2025-09-23)
 
 
