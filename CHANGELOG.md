@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.1](https://github.com/heenning/release_please/compare/v2.0.0...v2.0.1) (2025-09-23)
+
+
+### Bug Fixes
+
+* adds goodNight ([6235fb1](https://github.com/heenning/release_please/commit/6235fb1d7ad406ac6b677fe290b3bbcbafb8af08))
+
 ## [2.0.0](https://github.com/heenning/release_please/compare/v1.1.0...v2.0.0) (2025-09-23)
 
 
