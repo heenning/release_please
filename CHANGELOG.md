@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.0.0](https://github.com/heenning/release_please/compare/v2.0.1...v3.0.0) (2025-09-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* its bedtime
+
+### Bug Fixes
+
+* its bedtime ([2d564c8](https://github.com/heenning/release_please/commit/2d564c85cef153f4970acfd1a87938f422615c27))
+
 ## [2.0.1](https://github.com/heenning/release_please/compare/v2.0.0...v2.0.1) (2025-09-23)
 
 
