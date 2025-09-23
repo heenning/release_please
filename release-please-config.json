@@ -3,6 +3,12 @@
   "release-type": "node",
   "include-component-in-tag": false,
   "packages": {
-    ".": {}
+    ".": {
+      "extra-files": [
+              { "type": "json",
+                "path": "webapp/manifest.json",
+                "jsonpath": "$.sap.app.applicationVersion.version" }
+            ]
+    }
   }
 }
