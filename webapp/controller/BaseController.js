@@ -24,6 +24,10 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/core/UIComponent", "sap/ui/
 		getHackerNews: function () {
 			fetch("https://hacker-news.firebaseio.com/v0/topstories.json");
 		},
+
+		getSomeBreakingStuffDone: function () {
+			console.log("I am doing something really important!");
+		},
 		/**
 		 * Convenience method for getting the i18n resource bundle of the component.
 		 * @returns {Promise<sap.base.i18n.ResourceBundle>} The i18n resource bundle of the component
