@@ -4,6 +4,9 @@ sap.ui.define(["./BaseController", "sap/m/MessageBox"], function (BaseController
 	return BaseController.extend("de.albansberg.releaseplease.controller.Main", {
 		sayHello: function () {
 			MessageBox.show("Hello World!");
-		}
+		},
+		saygoodNight: function () {
+			MessageBox.show("Good Night World!");
+		},
 	});
 });
