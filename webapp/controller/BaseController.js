@@ -18,6 +18,10 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/core/UIComponent", "sap/ui/
 			return UIComponent.getRouterFor(this);
 		},
 
+		getIntegerHandler: function (sPath) {
+			console.log(sPath)
+		},
+
 		/**
 		 * Convenience method for getting the i18n resource bundle of the component.
 		 * @returns {Promise<sap.base.i18n.ResourceBundle>} The i18n resource bundle of the component
