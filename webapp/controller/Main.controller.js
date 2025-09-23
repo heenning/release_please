@@ -8,5 +8,8 @@ sap.ui.define(["./BaseController", "sap/m/MessageBox"], function (BaseController
 		saygoodNight: function () {
 			MessageBox.show("Good Night World!");
 		},
+		sayNoChanceToSleep: function () {
+			MessageBox.show("No Chance to Sleep World!");
+		}
 	});
 });
