@@ -3,7 +3,15 @@
   "release-type": "node",
   "include-component-in-tag": false,
   "packages": {
-    ".": {
+    "app/de.albansberg.release": {
+      "extra-files": [
+              { "type": "json",
+                "path": "webapp/manifest.json",
+                "jsonpath": "$['sap.app'].applicationVersion.version"
+              }
+            ]
+    },
+    "app/de.albansberg.test1": {
       "extra-files": [
               { "type": "json",
                 "path": "webapp/manifest.json",
