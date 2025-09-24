@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.0](https://github.com/heenning/release_please/compare/v3.0.0...v3.1.0) (2025-09-24)
+
+
+### Features
+
+* adds new Chage ([6899226](https://github.com/heenning/release_please/commit/6899226c4208d23f13ed7d45dd2af7691475ad2e))
+
 ## [3.1.0](https://github.com/heenning/release_please/compare/v3.0.0...v3.1.0) (2025-09-23)
 
 
