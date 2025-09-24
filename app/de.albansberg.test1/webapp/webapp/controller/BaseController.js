@@ -18,6 +18,10 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/core/UIComponent", "sap/ui/
 			return UIComponent.getRouterFor(this);
 		},
 
+		setChangeinTestApp: function () {
+			console.log("Change in Test App");
+		},
+
 		gehJetztInsBett: function () {
 			console.log("Ich gehe jetzt ins Bett!");
 		},
