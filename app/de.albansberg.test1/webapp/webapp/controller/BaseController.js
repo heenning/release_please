@@ -22,6 +22,10 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/core/UIComponent", "sap/ui/
 			console.log("Change in Test App");
 		},
 
+		getWieGehtDasJetztWirklich: function() {
+			console.log("Muss mich mal erinnern");
+		},
+
 		gehJetztInsBett: function () {
 			console.log("Ich gehe jetzt ins Bett!");
 		},
