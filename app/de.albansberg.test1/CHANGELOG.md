@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.1.0](https://github.com/heenning/release_please/compare/v3.0.0...v3.1.0) (2025-10-14)
+
+
+### Features
+
+* adds new Chage ([6899226](https://github.com/heenning/release_please/commit/6899226c4208d23f13ed7d45dd2af7691475ad2e))
+* adds new rember function ([ed16525](https://github.com/heenning/release_please/commit/ed16525c0d77a58cf6b613e5b992669b4ff66b8a))
+
 ## [3.1.0](https://github.com/heenning/release_please/compare/v3.0.0...v3.1.0) (2025-09-23)
 
 
