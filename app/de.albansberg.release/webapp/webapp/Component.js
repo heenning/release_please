@@ -12,7 +12,7 @@ sap.ui.define(["sap/ui/core/UIComponent", "sap/ui/Device", "./model/models"], fu
 
 			// create the device model
 			this.setModel(models.createDeviceModel(), "device");
-
+			console.log("HACKER NEWS");
 			// create the views based on the url/hash
 			this.getRouter().initialize();
 		},
