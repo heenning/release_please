@@ -17,7 +17,9 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/core/UIComponent", "sap/ui/
 		getRouter: function () {
 			return UIComponent.getRouterFor(this);
 		},
-
+        setAnswersToMyQuestions: function (){
+			//bleibt leer
+		},
 		gehJetztInsBett: function () {
 			console.log("Ich gehe jetzt ins Bett!");
 		},
