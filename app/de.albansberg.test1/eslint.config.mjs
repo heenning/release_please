@@ -1,10 +1,13 @@
-const globals = require("globals");
-const js = require("@eslint/js");
-const jsdoc = require("eslint-plugin-jsdoc");
+import eslint from "@eslint/js";
+import globals from "globals";
+import tseslint from "typescript-eslint";
+import jsdoc from "eslint-plugin-jsdoc";
 
-module.exports = [
-	js.configs.recommended,
+export default tseslint.config(
+	eslint.configs.recommended,
 	jsdoc.configs["flat/recommended"],
+	...tseslint.configs.recommended,
+	...tseslint.configs.recommendedTypeChecked,
 	{
 		languageOptions: {
 			globals: {
@@ -12,16 +15,13 @@ module.exports = [
 				sap: "readonly"
 			},
 			ecmaVersion: 2023,
-			sourceType: "script"
+			parserOptions: {
+				project: true,
+				tsconfigRootDir: import.meta.dirname
+			}
 		},
 		rules: {
-			"brace-style": [
-				2,
-				"1tbs",
-				{
-					allowSingleLine: true
-				}
-			],
+			"brace-style": [2, "1tbs", { allowSingleLine: true }],
 			"consistent-this": 2,
 			"no-div-regex": 2,
 			"no-floating-decimal": 2,
@@ -63,6 +63,6 @@ module.exports = [
 		}
 	},
 	{
-		ignores: ["eslint.config.js", "webapp/test/e2e/**"]
+		ignores: ["eslint.config.mjs", "webapp/test/e2e/**"]
 	}
-];
+);
